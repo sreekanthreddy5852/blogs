@@ -1,0 +1,45 @@
+.container {
+  border: 1px solod #d3d3d3;
+  width: 70%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 125px;
+  width: 125px;
+  margin-right: 5px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-topic {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.item-title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.author-container {
+  display: flex;
+}
+.avatar {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.author-name {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
